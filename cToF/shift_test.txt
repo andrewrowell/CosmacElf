@@ -1,0 +1,12 @@
+Learning how to use load, store, and shifting.
+
+Addr Code Mnem. Comments
+00   F8   LDI   Load 8 into D register
+01   08   8
+02   A1   PLO1  Store D into R1 register
+03   F8   LDI   Load 6 into D register
+04   06   6
+05   76   SRC   Shift D right (w/ carry)
+06   51   STR1  Store D at location pointed to by R1
+07   00   
+08   00         After running, this location will contain value 03
